@@ -9,7 +9,9 @@ link - https://dlcdn.apache.org/hbase/3.0.0-beta-1          (. click -> hbase-3.
 
 
 ## 2. nano .bashrc -> 
-export HBASE_HOME="/home/mudit/hbase/hbase-3.0.0-beta-1"
+export HBASE_HOME="/home/mudit/hbase/hbase-3.0.0-beta-1"                       
+
+
 export PATH=$PATH:$HBASE_HOME/bin
 
 ## create two folder -> cmd
