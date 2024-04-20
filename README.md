@@ -13,22 +13,12 @@ link - https://dlcdn.apache.org/hbase/3.0.0-beta-1          (. click -> hbase-3.
 2. export PATH=$PATH:$HBASE_HOME/bin
 
 ## create two folder -> cmd
-1. mkdir hbase-data
+1. mkdir hbase_data
 2. mkdir zookeeper
    
 ## 3. hbase-site.xml (edite) -> 
 
-<configuration>
-  <property>
-    <name>hbase.rootdir</name>
-    <value>file:///home/mudit/hbase-data</value>
-  </property>
-  <property>
-    <name>hbase.zookeeper.property.dataDir</name>
-    <value>/home/mudit/zookeeper</value>
-  </property>
-</configuration>
-
+https://drive.google.com/file/d/1MljPp_in4pIkkcK2VwNo1n_qMcRoCehW/view?usp=sharing
 
 ## 4. open cmd in hbase folder ->  cmd
 bin/start-hbase.sh
