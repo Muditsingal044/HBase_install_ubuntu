@@ -20,11 +20,17 @@ link - https://dlcdn.apache.org/hbase/3.0.0-beta-1          (. click -> hbase-3.
 
 https://drive.google.com/file/d/1MljPp_in4pIkkcK2VwNo1n_qMcRoCehW/view?usp=sharing
 
-## 4. open cmd in hbase folder ->  cmd
+## 4 cmd ->
+1. hadoop fs -chmod g+w /tmp
+2. hadoop fs -mkdir -p /user/hive/warehouse
+3. hadoop fs -chmod g+w /user/hive/warehouse
+
+
+## 5. open cmd in hbase folder ->  cmd
 bin/start-hbase.sh
 
-## 5. Start hbase shell -> cmd
+## 6. Start hbase shell -> cmd
 hbase shell
 
-## 6. Stop hbase shell -> cmd
+## 7. Stop hbase shell -> cmd
 stop-hbase.sh
