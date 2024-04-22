@@ -33,3 +33,4 @@ https://drive.google.com/file/d/1MljPp_in4pIkkcK2VwNo1n_qMcRoCehW/view?usp=shari
 
 ## Again start hbase -> cmd
 1. start-hbase.sh
+2. hbase shell
