@@ -22,10 +22,14 @@ https://drive.google.com/file/d/1MljPp_in4pIkkcK2VwNo1n_qMcRoCehW/view?usp=shari
 
 
 ## 4. open cmd in hbase folder ->  cmd
-bin/start-hbase.sh
+1. source ~/.bashrc
+2. bin/start-hbase.sh
 
 ## 5. Start hbase shell -> cmd
-hbase shell
+1. hbase shell
 
 ## 6. Stop hbase shell -> cmd
-stop-hbase.sh
+1. stop-hbase.sh
+
+## Again start hbase -> cmd
+1. start-hbase.sh
